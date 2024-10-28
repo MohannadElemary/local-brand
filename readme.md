@@ -14,6 +14,11 @@ This project implements a employee management API with endpoints for listing, sh
 ## Postman Documentation
 https://documenter.getpostman.com/view/8868758/2sAY4uCP9v
 
+## Area of Enhancements
+- Use SQS as queue driver, and consume those background jobs in a separated microservice for scalability.
+- Add more validations of the file data: like compare the dates with the ages, remove any wrong records with wrong logic.
+- Add authentication and authorizations for each action.
+
 ## Approach and Implementation
 
 ### 1. Architecture Overview
